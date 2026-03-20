@@ -28,6 +28,7 @@ Elle est conçue pour supporter une charge importante grâce à :
 | Pattern                 | ⚔️ CQRS (Command Query Responsibility Segregation avec MediatR) + 🧩 Clean Architecture (Domain, Application, Infrastructure, UI) |
 | Style                   | 🌐 Microservice Architecture (services découplés, scalables, indépendants) + 📡 Event-Driven Architecture (Kafka + MassTransit pour communication asynchrone) |
 | Conteneurisation        | 🐳 Docker-Compose (orchestration multi-services, reproductibilité, isolation) |
+| Observabilité (détails) | 🔦 Tempo & OpenTelemetry : Tracing distribué de bout en bout (Gateway → Kafka → DB)<br>📈 Prometheus & Grafana : Visualisation des métriques de santé et de performance<br>🪵 Loki & Seq : Centralisation des logs structurés<br>🩺 Healthchecks : Sondes de démarrage et de disponibilité pour chaque service et base de données |
 
 
 ---
