@@ -1,0 +1,6 @@
+@CommandeApi_HostAddress = http://localhost:5056
+
+GET {{CommandeApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

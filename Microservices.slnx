@@ -1,0 +1,43 @@
+<Solution>
+  <Folder Name="/Éléments de solution/">
+    <File Path=".env" />
+    <File Path="grafana/provisioning/datasources/datasources.yml" />
+    <File Path="loki/loki-config.yml" />
+    <File Path="prometheus/prometheus.yml" />
+    <File Path="sql-mariadb-commandedb/V1__creation_schema_commande.sql" />
+    <File Path="sql-mysql-productdb/V1__creation_schema_produit_categorie.sql" />
+    <File Path="sql-postgres-clientdb/V1__creation_schema_client.sql" />
+    <File Path="tempo/tempo.yml" />
+  </Folder>
+  <Folder Name="/Éléments de solution/src/" />
+  <Folder Name="/Éléments de solution/src/apigateway-microservice/">
+    <Project Path="src/apigateway-microservice/ApiGateway/ApiGateway.csproj" />
+    <Project Path="src/apigateway-microservice/Application/Application.csproj" Id="3d4a1b6a-fa6c-4de5-bfd9-155af029c964" />
+    <Project Path="src/apigateway-microservice/Domaine/Domaine.csproj" Id="6f43c8a5-ebf4-4722-909e-67af0a3d5d11" />
+    <Project Path="src/apigateway-microservice/Infrastructure/Infrastructure.csproj" Id="0a471f8e-76c3-44ce-98ac-ee0fcd6805e7" />
+  </Folder>
+  <Folder Name="/Éléments de solution/src/client-microservice/">
+    <Project Path="src/client-microservice/ClientApi.Application/ClientApi.Application.csproj" Id="f7228e7f-fe4b-4427-84aa-29141fa47415" />
+    <Project Path="src/client-microservice/ClientApi.Domain/ClientApi.Domain.csproj" Id="1db4f02f-d55b-452a-833c-39cbb88964c7" />
+    <Project Path="src/client-microservice/ClientApi.Infrastructure/ClientApi.Infrastructure.csproj" Id="08aa363f-0c2c-4644-af00-22341014226c" />
+    <Project Path="src/client-microservice/ClientApi/ClientApi.csproj" Id="e05abcf8-57b8-4323-babd-4d51647fed41" />
+  </Folder>
+  <Folder Name="/Éléments de solution/src/commande-microservice/">
+    <Project Path="src/commande-microservice/CommandeApi.Application/CommandeApi.Application.csproj" Id="ea6e7745-c063-4719-bd23-df1bd9e64cc3" />
+    <Project Path="src/commande-microservice/CommandeApi.Domain/CommandeApi.Domain.csproj" Id="af05f91f-865b-425a-a14a-d34fa526bad5" />
+    <Project Path="src/commande-microservice/CommandeApi.Infrastructure/CommandeApi.Infrastructure.csproj" Id="b4d9d3ad-5388-4f59-99d0-76623398b249" />
+    <Project Path="src/commande-microservice/CommandeApi/CommandeApi.csproj" Id="205db058-1f4d-440c-8143-866e15612e4e" />
+  </Folder>
+  <Folder Name="/Éléments de solution/src/core/">
+    <Project Path="src/Core/Core.csproj" />
+  </Folder>
+  <Folder Name="/Éléments de solution/src/product-microservice/">
+    <Project Path="src/product-microservice/ProductApi.Application/ProductApi.Application.csproj" Id="6338b2aa-8c01-4934-9d96-9fa8b2d98d3c" />
+    <Project Path="src/product-microservice/ProductApi.Domain/ProductApi.Domain.csproj" Id="ac7d20f5-b586-4de7-9c08-a44a37013364" />
+    <Project Path="src/product-microservice/ProductApi.Infrastructure/ProductApi.Infrastructure.csproj" Id="e352590f-9b14-49e4-87d2-80dc0d956939" />
+    <Project Path="src/product-microservice/ProductApi/ProductApi.csproj" Id="2adf7dfe-8152-4eaa-b69e-75f0ed0780df" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
