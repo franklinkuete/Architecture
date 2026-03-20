@@ -1,4 +1,4 @@
-# 🚀 E-Commerce Microservices Ecosystem (.NET 10)
+# 🚀 E-Commerce Microservices Ecosystem (.NET Core 10)
 
 Je m'appelle Franklin KUETE (Architecte de Solution), et je vous présente mon écosystème **Cloud-Native** ultra-performant.  
 Ce projet est une démonstration d'architecture distribuée moderne, mettant l'accent sur la **résilience**, l'**observabilité**, la **séparation stricte des domaines métier**, tout ca dans une **Clean Architecture** et **Microservice**
