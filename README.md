@@ -1,10 +1,9 @@
-Voici le contenu complet au format Markdown, optimisé pour un rendu professionnel sur GitHub. Tu peux le copier-coller directement dans ton fichier README.md.
-------------------------------
+
 🚀 E-Commerce Microservices Ecosystem (.NET 9)
 
 
 
-Bienvenue dans cet écosystème Cloud-Native ultra-performant. Ce projet est une démonstration d'architecture distribuée moderne, mettant l'accent sur la résilience, l'observabilité et la séparation stricte des domaines métier.
+Je m'appelle Franklin KUETE, et je vous présente mon écosystème Cloud-Native ultra-performant. Ce projet est une démonstration d'architecture distribuée moderne, mettant l'accent sur la résilience, l'observabilité et la séparation stricte des domaines métier.
 ------------------------------
 📖 1. Description du Projet
 Cette plateforme gère le cycle de vie complet d'un système e-commerce (Clients, Produits, Commandes). Elle est conçue pour supporter une charge importante grâce à une gestion fine du cache, une communication asynchrone et une isolation totale des données.
