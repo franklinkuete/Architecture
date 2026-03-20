@@ -23,7 +23,6 @@ Elle est conçue pour supporter une charge importante grâce à :
 | Bases de Données        | 🗄️ SQL Server 2025, PostgreSQL 16, MySQL 8.3, MariaDB 10.11 |
 | Messaging               | 📡 Apache Kafka & MassTransit |
 | Caching                 | ⚡ Redis 7.2 (Distribué L2) + IMemoryCache (Local L1) |
-| Observabilité           | 📊 Grafana, Loki, Tempo, Prometheus, Seq |
 | Mapping & Validation    | 🔄 Mapster & ✅ FluentValidation |
 | Pattern                 | ⚔️ CQRS (Command Query Responsibility Segregation avec MediatR) + 🧩 Clean Architecture (Domain, Application, Infrastructure, UI) |
 | Style                   | 🌐 Microservice Architecture (services découplés, scalables, indépendants) + 📡 Event-Driven Architecture (Kafka + MassTransit pour communication asynchrone) |
