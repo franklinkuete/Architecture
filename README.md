@@ -22,12 +22,15 @@ Elle est bâtie pour supporter une charge importante grâce à :
 | **Framework** | 🚀 .NET 10 (ASP.NET Core API) |
 | **API Gateway** | 🚪 YARP (Reverse Proxy) avec Polly Resilience |
 | **Bases de Données** | 🗄️ SQL Server 2025, PostgreSQL 16, MySQL 8.3, MariaDB 10.11 |
-| **Messaging** | 📡 Apache Kafka & MassTransit |
+| **Messaging** | 📡 Apache Kafka & MassTransit, Saga |
 | **Caching** | ⚡ Redis 7.2 (Distribué L2) + IMemoryCache (Local L1) |
-| **Patterns** | ⚔️ CQRS (MediatR) + 🧩 Clean Architecture |
+| **Patterns** | ⚔️ CQRS (MediatR) + 🧩 Clean Architecture + UnitOfWork |
+| **Validation** | 🛡️ Request Validation (FluentValidation) + Business Validation (BusinessValidationPipelineBehavior) |
+| **Mediatr Pipeline Behavior** | 🧵 MetricsPipelineBehavior → LoggingPipelineBehavior → RequestValidatorPipelineBehavior → CachePipelineBehavior → TransactionPipelineBehavior → BusinessValidationPipelineBehavior → CacheInvalidationPipelineBehavior |
 | **Style** | 🌐 Microservices & 📡 Event-Driven Architecture (EDA) |
 | **Conteneurisation** | 🐳 Docker-Compose (Orchestration & Isolation) |
 | **Observabilité** | 🔦 OpenTelemetry, Tempo, Grafana, Prometheus, Loki & Seq |
+
 
 ---
 
